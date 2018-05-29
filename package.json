@@ -1,0 +1,32 @@
+{
+  "name": "simple-webpack",
+  "version": "1.0.0",
+  "description": "Simple webpack 3 tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:prod": "webpack -p",
+    "start": "node server.js",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bishesh16/simple-webpack.git"
+  },
+  "author": "bishesh16",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bishesh16/simple-webpack/issues"
+  },
+  "homepage": "https://github.com/bishesh16/simple-webpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
