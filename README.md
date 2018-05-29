@@ -1,4 +1,4 @@
-#Simple-Webpack
+# Simple-Webpack
 This is a simple webpack 3 tutorial, which should help you familiarize with the basics of webpack.
 
 ## Requirements
